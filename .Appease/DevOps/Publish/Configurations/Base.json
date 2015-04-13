@@ -1,0 +1,13 @@
+{
+    "TaskParameters":  {
+                           "PublishAppeaseTaskTemplateToNuGetFeed":  {
+                                                                         "TaskTemplateDirPath":  "C:\\Temp\\NewAppeaseTaskTemplatePackage.0.0.3",
+                                                                         "DestinationPathOrUrl":  "#{AppeaseNuGetFeedUrl}",
+                                                                         "ApiKey":  "#{AppeaseNuGetFeedApiKey}"
+                                                                     }
+                       },
+    "Variables":  {
+                      "AppeaseNuGetFeedUrl":  "https://www.myget.org/F/appease/api/v2/package",
+                      "AppeaseNuGetFeedApiKey":  "d80dd34f-5d88-4946-988f-c1cf482e4f0d"
+                  }
+}

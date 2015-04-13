@@ -1,0 +1,9 @@
+{
+    "Tasks":  [
+                  {
+                      "TemplateId":  "CreateAppeaseTaskTemplatePackage",
+                      "Name":  "CreateAppeaseTaskTemplatePackage",
+                      "TemplateVersion":  "0.0.1"
+                  }
+              ]
+}

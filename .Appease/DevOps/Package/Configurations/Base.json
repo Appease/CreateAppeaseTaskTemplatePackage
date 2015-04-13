@@ -1,0 +1,23 @@
+{
+    "TaskParameters":  {
+                           "CreateAppeaseTaskTemplatePackage":  {
+                                                                    "Maintainer":  [
+                                                                                       {
+                                                                                           "Name":  "Chris Dostert"
+                                                                                       }
+                                                                                   ],
+                                                                    "ProjectUrl":  "https://github.com/Appease/CreateAppeaseTaskTemplatePackage",
+                                                                    "Id":  "CreateAppeaseTaskTemplatePackage",
+                                                                    "IconUrl":  "http://res.cloudinary.com/hibczhd9m/image/upload/c_crop/v1423785217/NuGet.org/5711875.png",
+                                                                    "Description":  "Creates an Appease task template package",
+                                                                    "SourceDirPath":  "#{Appease.ProjectRootDirPath}\\Src",
+                                                                    "InvocationHandler":  "PowerShell",
+                                                                    "InvocationCommand":  "{Import-Module .\\CreateAppeaseTaskTemplatePackage.psd1 -Force;\r\n@\"\r\n'#{Appease.Task.Parameters}'\r\n\"@ | Invoke}",
+                                                                    "DestinationDirPath":  "C:\\Temp",
+                                                                    "Version":  "0.0.5"
+                                                                }
+                       },
+    "Variables":  {
+
+                  }
+}

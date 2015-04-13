@@ -1,0 +1,9 @@
+{
+    "Tasks":  [
+                  {
+                      "TemplateId":  "PublishAppeaseTaskTemplateToNuGetFeed",
+                      "Name":  "PublishAppeaseTaskTemplateToNuGetFeed",
+                      "TemplateVersion":  "0.0.4"
+                  }
+              ]
+}
